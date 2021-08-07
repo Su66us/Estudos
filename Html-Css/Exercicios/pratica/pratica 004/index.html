@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas em ação</h1>
+    <picture>
+        <source media="(max-width:600px )" srcset="imagens/bola-500.jpg" type="image/png">
+        <source media="(max-width:800px )" srcset="imagens/bola-750.jpg" type="image/png">
+        <img src="imagens/bola-1000.jpg" alt="imagens flexivel">
+    </picture>
+</body>
+</html>

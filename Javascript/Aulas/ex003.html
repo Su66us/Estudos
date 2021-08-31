@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body{
+            background-color: rgb(128, 127, 127);
+            font: normal 20px Arial ; /*comentario em CSS */
+        }
+        h1{
+            color: rgb(180, 180, 196);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá mundo </h1><!--Isso é um comentário em HTML-->
+    <p>Para me livra da maldição.</p>
+    <script>
+        var n1 = Number(window.prompt("Digite um numero:  "));
+        var n2 = Number(window.prompt("Digite outro numero:  "));
+        var s = n1 + n2
+        window.alert('a soma dos valores é: ' + s);//Concatenação
+        
+        // (number + number) para adição 
+        // (string + string) para concatenação 
+        // window.prompt retonar uma string apesar de digitar um numero 
+        //necessário usar number.parseInt(Inteiros) ou parseFloat(Reais) para fazer a conversão de string par numero 
+    
+    </script>
+    
+</body>
+</html>

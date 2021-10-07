@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciando os estudos em DOM</title>
+    <style>
+        body{
+            background-color: rgba(28, 28, 206, 0.767);
+            color: white;
+            font: normal 18pt Arial ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos DOM</h1>
+    <p>Aqui vai o resultado</p><!--esse é p paragrafo 0-->
+    <p>Aprendendo a usar o <strong>DOM</strong> em javascript</p><!--esse é p paragrafo 1-->
+    <div id="msg">Clique em mim</div>
+    </br>
+    <script>
+        var body = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[0]
+        var d = window.document.querySelector("div#msg")
+        d.style.background = 'yellow'
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        /*
+        var d = window.document.getElementById('msg')
+        d.style.background = "green"
+        d.innerText = "Estou aguardando ..."
+        // forma encoutada d.innerText = "Estou aguardando ..."
+        // forma longa window.document.getElementById("msg").innerText = "Olá"
+        */
+        // Qual os paragrafos a cima sendo 0 o primeiro e 1 o segundo
+        // o simbolo de []serve para mais de uma tag do mesmo tipo, por exemplo quando tem muitos p´s ou div´s 
+        // diferenças entre o innerText--> texto é exibido sem formatação  e o innerHTML--> Vem formatado em HTML se tiver em italico ou negrito aparece 
+        //innerHTML-> Vem com tag's amostra 
+        //innerText-> vem apenas o texto 
+    </script>
+</body>
+</html>
